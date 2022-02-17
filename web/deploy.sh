@@ -7,10 +7,10 @@ set -e
 # AWS_REGION
 # IMAGE_NAME
 
-AWS_REGION="eu-west-1"
-IMAGE_NAME="wickedpark-image"
-AWS_ACCOUNT_ID="938474817018"
-ECS_CLUSTER="wickedpark-cluster"
+#AWS_REGION="eu-west-1"
+#IMAGE_NAME="wickedpark-image"
+#AWS_ACCOUNT_ID="938474817018"
+#ECS_CLUSTER="wickedpark-cluster"
 SERVICE_NAME="flask-app"
 TASK_FAMILY="flask-app"
 ECS_TASK_DEFINITION_TEMPLATE="task.json"
